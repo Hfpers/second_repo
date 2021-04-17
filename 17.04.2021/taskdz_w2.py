@@ -16,4 +16,13 @@ def canculator(first_number, second_number, action):
 
 print(canculator(123, 123, "+"))
 
+try:
+    canculator(123, 123, "+")
+    print('No errors')
+except (TypeError):
+    print('We have error!')
+else:
+    print('We have no error')
+finally:
+    print('I do not care about errors')
 
