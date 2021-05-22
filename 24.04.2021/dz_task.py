@@ -1,6 +1,3 @@
-a = 'hhgff56754'
-answ = 0
-for i in a:
-    if i.isdigit():
-        answ += int(i)
-print(answ)
+a = "amkfnbkanbnnf"
+text = ''.join(reversed(a))
+print(text)
